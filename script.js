@@ -4,6 +4,8 @@ const newQuoteBtn = document.querySelector(".quote-btn");
 const twitterBtn = document.querySelector(".twitter-link");
 let link;
 
+let test = 0
+
 fetch("https://type.fit/api/quotes")
   .then((response) => response.json())
   .then((data) => {
